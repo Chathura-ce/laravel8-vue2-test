@@ -4,7 +4,6 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">Create View</div>
-
                     <div class="card-body">
                         <form action="">
 
@@ -15,3 +14,8 @@
         </div>
     </div>
 </template>
+<script>
+export default {
+    components:{}
+}
+</script>

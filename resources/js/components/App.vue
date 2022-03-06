@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <RouteSpinner />
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Laravel vue</a>
@@ -25,7 +26,9 @@
 </template>
 
 <script>
+import RouteSpinner from "../Loader/RouteSpinner";
     export default {
+    components:{RouteSpinner},
         mounted() {
             console.log('Component mounted.')
         }
